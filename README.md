@@ -2,6 +2,12 @@
 
 An audio classification system using the AST (Audio Spectrogram Transformer) model, fine-tuned to classify music into 10 genres. Includes a Jupyter notebook for model development and a Gradio web interface for inference.
 
+### Live demo
+
+A hosted demo of this project is available on Hugging Face Spaces:
+
+https://huggingface.co/spaces/chopadaansh/music-genre-classifier
+
 ## Features
 
 - Audio classification into 10 genres: blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock.
@@ -68,11 +74,7 @@ python deployment/app.py
 
 The app will start at `http://localhost:7860` (or another available port). Upload an audio clip and view the predicted genre and confidence scores.
 
-### Live demo
 
-A hosted demo of this project is available on Hugging Face Spaces:
-
-https://huggingface.co/spaces/chopadaansh/music-genre-classifier
 
 ### Run the Notebook
 
