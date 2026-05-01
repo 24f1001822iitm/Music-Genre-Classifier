@@ -68,6 +68,12 @@ python deployment/app.py
 
 The app will start at `http://localhost:7860` (or another available port). Upload an audio clip and view the predicted genre and confidence scores.
 
+### Live demo
+
+A hosted demo of this project is available on Hugging Face Spaces:
+
+https://huggingface.co/spaces/chopadaansh/music-genre-classifier
+
 ### Run the Notebook
 
 Open the development notebook:
